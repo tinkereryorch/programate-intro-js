@@ -13,4 +13,7 @@ console.log(`Hola ${myName}`);
 // Algo chistoso de Javascript... concatena valores numéricos con strings
 console.log(unNumero + otroNumero);
 
+// Declarar un arreglo
+var myArray = [3, 6, 9, 12];
+
 
