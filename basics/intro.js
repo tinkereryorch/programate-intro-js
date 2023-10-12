@@ -72,3 +72,7 @@ let camara = {
 
 console.log(camara['marca']);
 console.log(camara.precio);
+
+// JSON stringify
+camaraEnJson = JSON.stringify(camara);
+console.log(camaraEnJson);
