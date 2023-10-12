@@ -57,3 +57,18 @@ console.log(result3);
 
 let result4 = myArray.map((item) => {return item * 2});
 console.log(result4);
+
+// Object example
+let camara = {
+    marca: 'GoPro',
+    modelo: 'X49',
+    precio: 230.99,
+    disponible: true,
+    tiendas: [
+        'Amazon',
+        'Mercado Libre'
+    ]
+}
+
+console.log(camara['marca']);
+console.log(camara.precio);
