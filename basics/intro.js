@@ -10,5 +10,7 @@ const otroNumero = 2;
 console.log('Hola', myName);
 console.log(`Hola ${myName}`);
 
+// Algo chistoso de Javascript... concatena valores numéricos con strings
+console.log(unNumero + otroNumero);
 
 
