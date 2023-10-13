@@ -24,3 +24,13 @@ function changeInputTextHandler() {
 
 myButton.addEventListener("click", buttonChangeH1Color);
 inputButton.addEventListener("click", changeInputTextHandler);
+
+fetch('http://localhost:3000/greeting')
+    .then(response => response.text())
+    .then(data => {
+        let { message, author, date } = JSON.parse(data);
+        document.getElementById('apiMessage').textContent = message + author + date;
+    })
+    .catch(error => {
+        console.error('Error:', error)
+    });
